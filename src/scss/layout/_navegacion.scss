@@ -1,7 +1,7 @@
 .barra{
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
+    padding-top: .5rem;
 
     @include tablet {
         flex-direction: row;
@@ -26,7 +26,7 @@
         &:hover{
             transform: scale(1.05);
             border-bottom: 2px solid $blanco;
-            text-shadow: 0rem 0rem .2rem rgb(251, 255, 0);
+            
         }
         @include tablet{
             margin-right: 2rem;
