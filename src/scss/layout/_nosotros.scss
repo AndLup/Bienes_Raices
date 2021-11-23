@@ -1,3 +1,10 @@
+.no-webp .imagen-contacto{
+    background-image: url(../../img/nosotros.jpg);
+}
+.webp .imagen-contacto{
+    background-image: url(../../../build/img/nosotros.webp);
+}
+
 @include tablet{
 
     picture img{
