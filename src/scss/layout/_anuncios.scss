@@ -15,9 +15,9 @@
     .contenido-anuncio{
         padding: 2rem;
     }
-    
     h3, p{
         margin: 0;
+        text-align: center;
     }
 
     .precio{
@@ -35,9 +35,10 @@
     li{
         flex: 1;
         display: flex;
+        justify-content: center;
 
         img{
-            flex: 0 0 5rem;
+            flex: 0 0 6rem;
             margin-right: 1rem;
         }
 
