@@ -1,0 +1,39 @@
+.barra{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+
+    @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion {
+
+    @include tablet{
+        display: flex;
+        align-items: center;
+    }
+
+    a{
+        color: $blanco;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        transition: transform .5s;
+
+        &:hover{
+            transform: scale(1.05);
+            border-bottom: 2px solid $blanco;
+            text-shadow: 0rem 0rem .2rem rgb(251, 255, 0);
+        }
+        @include tablet{
+            margin-right: 2rem;
+
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+    }
+}
