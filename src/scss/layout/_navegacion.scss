@@ -1,6 +1,7 @@
 .barra{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: .5rem;
 
     @include tablet {
@@ -10,10 +11,15 @@
 }
 
 .navegacion {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 3s ease-in-out, opacity 1s linear;
 
     @include tablet{
         display: flex;
         align-items: center;
+        opacity: 1;
+        visibility: visible;
     }
 
     a{
@@ -36,4 +42,21 @@
             }
         }
     }
+}
+
+//Meno Responsivo
+
+.mobile-menu{
+    @include tablet {
+        display: none;
+    }
+
+    img{
+        width: 5rem;
+    }
+}
+
+.mostrar{
+    visibility: visible;
+    opacity: 1;
 }
