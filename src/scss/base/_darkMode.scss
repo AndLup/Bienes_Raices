@@ -1,0 +1,16 @@
+.dark-mode{
+    background-color: darken($color: $grisOscuro, $amount: 10);
+
+    p, a{
+        color: $blanco;
+    }
+
+    h1, h2, h3, h4{
+        color: $verde;
+    }
+
+    .anuncio{
+        background-color: $grisOscuro;
+        box-shadow: .7rem .7rem 1rem .2rem rgba(255, 255, 255, 0.1);
+    }
+}

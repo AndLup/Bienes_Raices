@@ -1,7 +1,17 @@
 document.addEventListener('DOMContentLoaded', function(){
 
     eventListeners();
-} )
+
+    darkMode();
+} );
+
+function darkMode(){
+    const btnDark = document.querySelector('.darkmode');
+
+    btnDark.addEventListener('click', ()=>{
+        document.body.classList.toggle('dark-mode');
+    })
+}
 
 function eventListeners(){
     const mobileMenu = document.querySelector('.mobile-menu');
