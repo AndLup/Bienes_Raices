@@ -5,12 +5,25 @@
         color: $blanco;
     }
 
+    fieldset p{
+        color: $blanco;
+    }
+
     h1, h2, h3, h4{
         color: $verde;
     }
 
-    .anuncio{
+    .anuncio, .resumen-propiedad{
         background-color: $grisOscuro;
         box-shadow: .7rem .7rem 1rem .2rem rgba(255, 255, 255, 0.1);
     }
+
+    label{
+        color: $verde;
+    }
+
+    fieldset legend{
+        color: royalblue;
+    }
+
 }
