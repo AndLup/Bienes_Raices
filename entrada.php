@@ -1,5 +1,6 @@
-<?php 
-    include 'includes/templates/header.php';
+<?php
+    require 'includes/funciones.php';
+    incluirTemplate('header');
 ?>
     
     <main class="contenedor seccion contenido-centrado">
@@ -16,6 +17,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati sequi quia quis minus tenetur adipisci a illo nam, saepe fuga cumque dignissimos amet ex quod enim consectetur dolore rerum, iste earum! Voluptatem vitae blanditiis earum quasi aliquid officiis, totam quae ipsam similique qui enim quis quidem! Quos, omnis. Eos consequuntur voluptatem ratione sit delectus eligendi consequatur, atque libero, sequi error minima. Accusantium fuga dolor veritatis repudiandae minus cupiditate tempore pariatur earum aliquid, quo facere, magni officia voluptas iusto quisquam.</p>
         </div>
     </main>
-    <?php include 'includes/templates/footer.php'; ?>
+    
+    <?php 
+        incluirTemplate('footer');
+    ?>
 
   

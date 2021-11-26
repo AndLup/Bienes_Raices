@@ -1,6 +1,6 @@
 <?php
-    $inicio = true;
-    include 'includes/templates/header.php';
+    require 'includes/funciones.php';
+    incluirTemplate('header', $inicio = true);
 ?>
     
     <main class="contenedor seccion">
@@ -187,5 +187,8 @@
         </section>
     </div>
 
-<?php include 'includes/templates/footer.php'; ?>
+
+    <?php 
+        incluirTemplate('footer');
+    ?>
    
